@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "rebuild": "npm rebuild --runtime=electron --target=1.7.10 --disturl=https://atom.io/download/atom-shell --abi=51",
-    "dist": "electron-builder -wl",
+    "dist": "electron-builder -w",
     "postinstall": "electron-builder install-app-deps"
   },
   "repository": "https://github.com/electron/electron-quick-start",
